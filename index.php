@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <link href="./css/common.css" rel="stylesheet">
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -17,12 +18,12 @@
     <form action="./login_proc.php" method="post">
       <input type="text" id="login" class="fadeIn second" name="email" placeholder="email">
       <input type="password" id="password" class="fadeIn third" name="pass" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Log In">
+      <input type="submit" class="fadeIn fourth" value="로그인">
     </form>
 
     <!-- Remind Passowrd -->
     <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
+      <a class="underlineHover" href="./signup.php">아직회원아니세요? 회원가입</a>
     </div>
 
   </div>
